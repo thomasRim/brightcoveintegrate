@@ -1,0 +1,441 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		156194BB1CCC1393AF5C2AC2 /* Pods_Bc_PTV_Sample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60E7D883D554E8F53FABD006 /* Pods_Bc_PTV_Sample.framework */; };
+		E15F68212052DDAB00EF84F3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15F68202052DDAB00EF84F3 /* AppDelegate.swift */; };
+		E15F68232052DDAB00EF84F3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15F68222052DDAB00EF84F3 /* ViewController.swift */; };
+		E15F68262052DDAB00EF84F3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E15F68242052DDAB00EF84F3 /* Main.storyboard */; };
+		E15F68282052DDAB00EF84F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E15F68272052DDAB00EF84F3 /* Assets.xcassets */; };
+		E15F682B2052DDAB00EF84F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E15F68292052DDAB00EF84F3 /* LaunchScreen.storyboard */; };
+		E1D10CC120617FCB007B34D6 /* BrightcovePlayerConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1D10CC020617FCB007B34D6 /* BrightcovePlayerConfig.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		266E15F9C1B5E05E0DA523F1 /* Pods-Bc_PTV-Sample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bc_PTV-Sample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Bc_PTV-Sample/Pods-Bc_PTV-Sample.debug.xcconfig"; sourceTree = "<group>"; };
+		60E7D883D554E8F53FABD006 /* Pods_Bc_PTV_Sample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Bc_PTV_Sample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		90D73B92A6BF09C36C988C41 /* Pods-Bc_PTV-Sample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bc_PTV-Sample.release.xcconfig"; path = "Pods/Target Support Files/Pods-Bc_PTV-Sample/Pods-Bc_PTV-Sample.release.xcconfig"; sourceTree = "<group>"; };
+		E15F681D2052DDAB00EF84F3 /* Bc_PTV-Sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bc_PTV-Sample.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E15F68202052DDAB00EF84F3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E15F68222052DDAB00EF84F3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E15F68252052DDAB00EF84F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E15F68272052DDAB00EF84F3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E15F682A2052DDAB00EF84F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E15F682C2052DDAB00EF84F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1D10CC020617FCB007B34D6 /* BrightcovePlayerConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrightcovePlayerConfig.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E15F681A2052DDAB00EF84F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				156194BB1CCC1393AF5C2AC2 /* Pods_Bc_PTV_Sample.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0719D00B68644C99B3031998 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				60E7D883D554E8F53FABD006 /* Pods_Bc_PTV_Sample.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CA417D8DC57BCB3DA683AEB8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				266E15F9C1B5E05E0DA523F1 /* Pods-Bc_PTV-Sample.debug.xcconfig */,
+				90D73B92A6BF09C36C988C41 /* Pods-Bc_PTV-Sample.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E15F68142052DDAB00EF84F3 = {
+			isa = PBXGroup;
+			children = (
+				E15F681F2052DDAB00EF84F3 /* brightcoveintegrate */,
+				E15F681E2052DDAB00EF84F3 /* Products */,
+				CA417D8DC57BCB3DA683AEB8 /* Pods */,
+				0719D00B68644C99B3031998 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E15F681E2052DDAB00EF84F3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E15F681D2052DDAB00EF84F3 /* Bc_PTV-Sample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E15F681F2052DDAB00EF84F3 /* brightcoveintegrate */ = {
+			isa = PBXGroup;
+			children = (
+				E15F68202052DDAB00EF84F3 /* AppDelegate.swift */,
+				E15F68222052DDAB00EF84F3 /* ViewController.swift */,
+				E1D10CC020617FCB007B34D6 /* BrightcovePlayerConfig.swift */,
+				E15F68242052DDAB00EF84F3 /* Main.storyboard */,
+				E15F68272052DDAB00EF84F3 /* Assets.xcassets */,
+				E15F68292052DDAB00EF84F3 /* LaunchScreen.storyboard */,
+				E15F682C2052DDAB00EF84F3 /* Info.plist */,
+			);
+			path = brightcoveintegrate;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E15F681C2052DDAB00EF84F3 /* Bc_PTV-Sample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E15F682F2052DDAB00EF84F3 /* Build configuration list for PBXNativeTarget "Bc_PTV-Sample" */;
+			buildPhases = (
+				AFFE14A7803C3D254821FBA4 /* [CP] Check Pods Manifest.lock */,
+				E15F68192052DDAB00EF84F3 /* Sources */,
+				E15F681A2052DDAB00EF84F3 /* Frameworks */,
+				E15F681B2052DDAB00EF84F3 /* Resources */,
+				C84F52DF567ADDE56E30325D /* [CP] Embed Pods Frameworks */,
+				C3C749016AEBFC7201A8683C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Bc_PTV-Sample";
+			productName = brightcoveintegrate;
+			productReference = E15F681D2052DDAB00EF84F3 /* Bc_PTV-Sample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E15F68152052DDAB00EF84F3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = PrometheanTV;
+				TargetAttributes = {
+					E15F681C2052DDAB00EF84F3 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = E15F68182052DDAB00EF84F3 /* Build configuration list for PBXProject "brightcoveintegrate" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E15F68142052DDAB00EF84F3;
+			productRefGroup = E15F681E2052DDAB00EF84F3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E15F681C2052DDAB00EF84F3 /* Bc_PTV-Sample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E15F681B2052DDAB00EF84F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E15F682B2052DDAB00EF84F3 /* LaunchScreen.storyboard in Resources */,
+				E15F68282052DDAB00EF84F3 /* Assets.xcassets in Resources */,
+				E15F68262052DDAB00EF84F3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		AFFE14A7803C3D254821FBA4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Bc_PTV-Sample-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C3C749016AEBFC7201A8683C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Bc_PTV-Sample/Pods-Bc_PTV-Sample-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/Brightcove-Player-Core/BCOVPUIResources.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/BCOVPUIResources.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Bc_PTV-Sample/Pods-Bc_PTV-Sample-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C84F52DF567ADDE56E30325D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Bc_PTV-Sample/Pods-Bc_PTV-Sample-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireObjectMapper/AlamofireObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/CryptoSwift/CryptoSwift.framework",
+				"${PODS_ROOT}/GoogleAds-IMA-iOS-SDK/GoogleInteractiveMediaAds/GoogleInteractiveMediaAds.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/KeenClient/KeenClient.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/PrometheanTVSDK/PrometheanTVSDK.framework",
+				"${BUILT_PRODUCTS_DIR}/PromiseKit/PromiseKit.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CryptoSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleInteractiveMediaAds.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KeenClient.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PrometheanTVSDK.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PromiseKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Bc_PTV-Sample/Pods-Bc_PTV-Sample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E15F68192052DDAB00EF84F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E15F68232052DDAB00EF84F3 /* ViewController.swift in Sources */,
+				E1D10CC120617FCB007B34D6 /* BrightcovePlayerConfig.swift in Sources */,
+				E15F68212052DDAB00EF84F3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E15F68242052DDAB00EF84F3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E15F68252052DDAB00EF84F3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E15F68292052DDAB00EF84F3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E15F682A2052DDAB00EF84F3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E15F682D2052DDAB00EF84F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E15F682E2052DDAB00EF84F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E15F68302052DDAB00EF84F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 266E15F9C1B5E05E0DA523F1 /* Pods-Bc_PTV-Sample.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4FLNJKGBZ5;
+				INFOPLIST_FILE = brightcoveintegrate/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.promethean.brightcoveintegrate;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E15F68312052DDAB00EF84F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90D73B92A6BF09C36C988C41 /* Pods-Bc_PTV-Sample.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4FLNJKGBZ5;
+				INFOPLIST_FILE = brightcoveintegrate/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.promethean.brightcoveintegrate;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E15F68182052DDAB00EF84F3 /* Build configuration list for PBXProject "brightcoveintegrate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E15F682D2052DDAB00EF84F3 /* Debug */,
+				E15F682E2052DDAB00EF84F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E15F682F2052DDAB00EF84F3 /* Build configuration list for PBXNativeTarget "Bc_PTV-Sample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E15F68302052DDAB00EF84F3 /* Debug */,
+				E15F68312052DDAB00EF84F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E15F68152052DDAB00EF84F3 /* Project object */;
+}
