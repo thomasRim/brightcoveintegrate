@@ -8,14 +8,14 @@
 
 import ObjectMapper
 
-struct BrightcovePlayerConfig: Mappable {
+class BrightcovePlayerConfig:NSObject, Mappable {
     var policyKey: String = ""
     var imaUseMediaCuePoints: Bool = false
     var imaServerUrl: String?
     
-    init?(map: Map) {}
+    required init?(map: Map) {}
     
-    mutating func mapping(map: Map) {
+    func mapping(map: Map) {
         self.policyKey <- map["video_cloud.policy_key"]
         var plugins = [BrightcovePlugin]()
         plugins <- map["plugins"]
@@ -25,6 +25,17 @@ struct BrightcovePlayerConfig: Mappable {
                 self.imaServerUrl = plugin.options["serverUrl"] as? String
             }
         }
+    }
+
+    class func configForPlayer(fromAccount id:String, named:String) -> BrightcovePlayerConfig? {
+        let policyKeyUrl = "https://players.brightcove.net/\(id)/\(named)_default/config.json"
+        if let url = URL(string: policyKeyUrl), let data = try? Data(contentsOf: url) {
+            if let object = try? JSONSerialization.jsonObject(with: data, options: JSONSerialization.ReadingOptions.allowFragments) as! [String : Any] {
+                let config = BrightcovePlayerConfig(JSON: object)
+                return config
+            }
+        }
+        return nil
     }
 }
 
