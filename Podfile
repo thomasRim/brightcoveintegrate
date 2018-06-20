@@ -7,5 +7,5 @@ use_frameworks!
 
 target 'Bc_PTV-Sample' do
   pod 'Brightcove-Player-IMA'
-  pod 'PrometheanTVSDK', :path=>"../sdk-ios"
+#  pod 'PrometheanTVSDK', :path=>"../sdk-ios"
 end
