@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		156194BB1CCC1393AF5C2AC2 /* Pods_Bc_PTV_Sample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60E7D883D554E8F53FABD006 /* Pods_Bc_PTV_Sample.framework */; };
+		E113E29F20DA9A4A003990E3 /* Bc_PTV_SampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E113E29E20DA9A4A003990E3 /* Bc_PTV_SampleTests.swift */; };
 		E15F68212052DDAB00EF84F3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15F68202052DDAB00EF84F3 /* AppDelegate.swift */; };
 		E15F68232052DDAB00EF84F3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15F68222052DDAB00EF84F3 /* ViewController.swift */; };
 		E15F68262052DDAB00EF84F3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E15F68242052DDAB00EF84F3 /* Main.storyboard */; };
@@ -16,10 +17,23 @@
 		E1D10CC120617FCB007B34D6 /* BrightcovePlayerConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1D10CC020617FCB007B34D6 /* BrightcovePlayerConfig.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		E113E2A120DA9A4A003990E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E15F68152052DDAB00EF84F3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E15F681C2052DDAB00EF84F3;
+			remoteInfo = "Bc_PTV-Sample";
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		266E15F9C1B5E05E0DA523F1 /* Pods-Bc_PTV-Sample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bc_PTV-Sample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Bc_PTV-Sample/Pods-Bc_PTV-Sample.debug.xcconfig"; sourceTree = "<group>"; };
 		60E7D883D554E8F53FABD006 /* Pods_Bc_PTV_Sample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Bc_PTV_Sample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		90D73B92A6BF09C36C988C41 /* Pods-Bc_PTV-Sample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bc_PTV-Sample.release.xcconfig"; path = "Pods/Target Support Files/Pods-Bc_PTV-Sample/Pods-Bc_PTV-Sample.release.xcconfig"; sourceTree = "<group>"; };
+		E113E29C20DA9A4A003990E3 /* Bc_PTV-SampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bc_PTV-SampleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E113E29E20DA9A4A003990E3 /* Bc_PTV_SampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bc_PTV_SampleTests.swift; sourceTree = "<group>"; };
+		E113E2A020DA9A4A003990E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E15F681D2052DDAB00EF84F3 /* Bc_PTV-Sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bc_PTV-Sample.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E15F68202052DDAB00EF84F3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E15F68222052DDAB00EF84F3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -31,6 +45,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		E113E29920DA9A4A003990E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E15F681A2052DDAB00EF84F3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -59,10 +80,20 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		E113E29D20DA9A4A003990E3 /* Bc_PTV-SampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				E113E29E20DA9A4A003990E3 /* Bc_PTV_SampleTests.swift */,
+				E113E2A020DA9A4A003990E3 /* Info.plist */,
+			);
+			path = "Bc_PTV-SampleTests";
+			sourceTree = "<group>";
+		};
 		E15F68142052DDAB00EF84F3 = {
 			isa = PBXGroup;
 			children = (
 				E15F681F2052DDAB00EF84F3 /* brightcoveintegrate */,
+				E113E29D20DA9A4A003990E3 /* Bc_PTV-SampleTests */,
 				E15F681E2052DDAB00EF84F3 /* Products */,
 				CA417D8DC57BCB3DA683AEB8 /* Pods */,
 				0719D00B68644C99B3031998 /* Frameworks */,
@@ -73,6 +104,7 @@
 			isa = PBXGroup;
 			children = (
 				E15F681D2052DDAB00EF84F3 /* Bc_PTV-Sample.app */,
+				E113E29C20DA9A4A003990E3 /* Bc_PTV-SampleTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -94,6 +126,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		E113E29B20DA9A4A003990E3 /* Bc_PTV-SampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E113E2A520DA9A4A003990E3 /* Build configuration list for PBXNativeTarget "Bc_PTV-SampleTests" */;
+			buildPhases = (
+				E113E29820DA9A4A003990E3 /* Sources */,
+				E113E29920DA9A4A003990E3 /* Frameworks */,
+				E113E29A20DA9A4A003990E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E113E2A220DA9A4A003990E3 /* PBXTargetDependency */,
+			);
+			name = "Bc_PTV-SampleTests";
+			productName = "Bc_PTV-SampleTests";
+			productReference = E113E29C20DA9A4A003990E3 /* Bc_PTV-SampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		E15F681C2052DDAB00EF84F3 /* Bc_PTV-Sample */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = E15F682F2052DDAB00EF84F3 /* Build configuration list for PBXNativeTarget "Bc_PTV-Sample" */;
@@ -120,10 +170,15 @@
 		E15F68152052DDAB00EF84F3 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0920;
+				LastSwiftUpdateCheck = 0940;
 				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = PrometheanTV;
 				TargetAttributes = {
+					E113E29B20DA9A4A003990E3 = {
+						CreatedOnToolsVersion = 9.4;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E15F681C2052DDAB00EF84F3;
+					};
 					E15F681C2052DDAB00EF84F3 = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
@@ -144,11 +199,19 @@
 			projectRoot = "";
 			targets = (
 				E15F681C2052DDAB00EF84F3 /* Bc_PTV-Sample */,
+				E113E29B20DA9A4A003990E3 /* Bc_PTV-SampleTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		E113E29A20DA9A4A003990E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E15F681B2052DDAB00EF84F3 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -245,6 +308,14 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		E113E29820DA9A4A003990E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E113E29F20DA9A4A003990E3 /* Bc_PTV_SampleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E15F68192052DDAB00EF84F3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -256,6 +327,14 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E113E2A220DA9A4A003990E3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E15F681C2052DDAB00EF84F3 /* Bc_PTV-Sample */;
+			targetProxy = E113E2A120DA9A4A003990E3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		E15F68242052DDAB00EF84F3 /* Main.storyboard */ = {
@@ -277,6 +356,46 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		E113E2A320DA9A4A003990E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4FLNJKGBZ5;
+				INFOPLIST_FILE = "Bc_PTV-SampleTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.promethean.peer-demo.Bc-PTV-SampleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bc_PTV-Sample.app/Bc_PTV-Sample";
+			};
+			name = Debug;
+		};
+		E113E2A420DA9A4A003990E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4FLNJKGBZ5;
+				INFOPLIST_FILE = "Bc_PTV-SampleTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.promethean.peer-demo.Bc-PTV-SampleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bc_PTV-Sample.app/Bc_PTV-Sample";
+			};
+			name = Release;
+		};
 		E15F682D2052DDAB00EF84F3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -421,6 +540,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		E113E2A520DA9A4A003990E3 /* Build configuration list for PBXNativeTarget "Bc_PTV-SampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E113E2A320DA9A4A003990E3 /* Debug */,
+				E113E2A420DA9A4A003990E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		E15F68182052DDAB00EF84F3 /* Build configuration list for PBXProject "brightcoveintegrate" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
